@@ -5,4 +5,12 @@ function fibnacci(n) {
   }
   return fib;
 }
-console.log(fibnacci(4));
+
+function factorial(n) {
+  sum = 1;
+  for (let i = 1; i <= 5; i++) {
+    sum = sum * i;
+  }
+  return sum;
+}
+console.log(factorial(5));
